@@ -13,6 +13,8 @@
 		490C705F20A28B900045970D /* carnvicMVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 490C705D20A28B900045970D /* carnvicMVC.xcdatamodeld */; };
 		490C706120A28B960045970D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490C706020A28B960045970D /* Assets.xcassets */; };
 		490C706420A28B960045970D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490C706220A28B960045970D /* LaunchScreen.storyboard */; };
+		490C706E20A28C040045970D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C706D20A28C040045970D /* UserModel.swift */; };
+		490C707220A291050045970D /* UserData in Resources */ = {isa = PBXBuildFile; fileRef = 490C707120A291050045970D /* UserData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		490C706020A28B960045970D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490C706320A28B960045970D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490C706520A28B960045970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490C706D20A28C040045970D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		490C707120A291050045970D /* UserData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UserData; path = ../../../../../../Documents/UserData; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		490C705520A28B900045970D /* carnvicMVC */ = {
 			isa = PBXGroup;
 			children = (
-				490C705620A28B900045970D /* AppDelegate.swift */,
-				490C705820A28B900045970D /* ViewController.swift */,
-				490C705A20A28B900045970D /* Main.storyboard */,
+				490C706C20A28BDA0045970D /* Model */,
+				490C706F20A28C170045970D /* View */,
+				490C707020A28C280045970D /* Controller */,
+				490C706B20A28BBD0045970D /* SupportFiles */,
 				490C706020A28B960045970D /* Assets.xcassets */,
-				490C706220A28B960045970D /* LaunchScreen.storyboard */,
 				490C706520A28B960045970D /* Info.plist */,
+				490C707120A291050045970D /* UserData */,
 				490C705D20A28B900045970D /* carnvicMVC.xcdatamodeld */,
 			);
 			path = carnvicMVC;
+			sourceTree = "<group>";
+		};
+		490C706B20A28BBD0045970D /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				490C705620A28B900045970D /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		490C706C20A28BDA0045970D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				490C706D20A28C040045970D /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		490C706F20A28C170045970D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				490C705A20A28B900045970D /* Main.storyboard */,
+				490C706220A28B960045970D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		490C707020A28C280045970D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				490C705820A28B900045970D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490C706420A28B960045970D /* LaunchScreen.storyboard in Resources */,
+				490C707220A291050045970D /* UserData in Resources */,
 				490C706120A28B960045970D /* Assets.xcassets in Resources */,
 				490C705C20A28B900045970D /* Main.storyboard in Resources */,
 			);
@@ -140,6 +179,7 @@
 			files = (
 				490C705F20A28B900045970D /* carnvicMVC.xcdatamodeld in Sources */,
 				490C705920A28B900045970D /* ViewController.swift in Sources */,
+				490C706E20A28C040045970D /* UserModel.swift in Sources */,
 				490C705720A28B900045970D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
