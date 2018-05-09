@@ -9,5 +9,8 @@
 import UIKit
 
 class UserModel: NSObject {
-
+    var dats: String?
+    init(data:String) {
+        self.dats = data
+    }
 }
