@@ -24,6 +24,7 @@ class ViewController: UIViewController {
                 if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let person = jsonResult["person"] as? [Any] {
                     // do stuff
                 }
+                
             } catch {
                 // handle error
             }
